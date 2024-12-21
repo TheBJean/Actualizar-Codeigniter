@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+
+#tetris {
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    margin-top: 10px; /* Espacio entre el botón y el canvas */
+}
+
+#scoreDisplay {
+    font-size: 1.2rem; /* Tamaño del texto del puntaje */
+    margin: 10px 0; /* Espacio alrededor del puntaje */
+}
+
+#restartButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#restartButton:hover {
+    background-color: #c82333;
+} 
